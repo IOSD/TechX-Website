@@ -970,160 +970,25 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
-.overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, .3);
-}
-@keyframes example {
-  0% {background: url(../img/background/sp1.jpg) no-repeat center;
-    background-size: auto auto;
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    position: relative;
-  }
-  5% {background: url(../img/background/sp2.jpg) no-repeat center;
-    background-size: auto auto;
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    position: relative;
-  }
-  50% {background: url(../img/background/sp2.jpg) no-repeat center;
-    background-size: auto auto;
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    position: relative;
-  }
-  55% {background: url(../img/background/sp1.jpg) no-repeat center;
-    background-size: auto auto;
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    position: relative;
-  }
-  100% {background: url(../img/background/sp1.jpg) no-repeat center;
-    background-size: auto auto;
-    background-size: cover;
-    height: 100%;
-    background-attachment: fixed;
-    position: relative;
-  }
-}
-
-/* The element to apply the animation to */
-
-@keyframes example2 {
-  0% {background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-  }
-  5% {background-image: linear-gradient(to left bottom, yellow,white, yellow);
-  }
-  50% {background-image: linear-gradient(to left bottom,yellow,white, yellow);
-  }
-  55% {background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-  }
-  100% {background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-  }
-}
 #sponsors {
- /* background: url(../img/background/sp3.jpg) no-repeat center; */
- /* background-image: linear-gradient(to left bottom,yellow,white, yellow ); */
- background: url(../img/background/sp1.jpg) no-repeat center;
- animation: example 20s linear 9s infinite normal;
- max-width: 100%;
-  background-attachment: scroll;
-  background-size: auto auto;
-  background-size: cover;
-  height: 100%;
-  background-attachment: fixed;
-  position: relative;
+  background: #323232;
 }
 
- .sponsor-section-title-header h2{
+#sponsors .spnsors-logo {
   text-align: center;
-  background-image: linear-gradient(to left bottom, #009fff,white,#92fe9d);
-  -webkit-background-clip: text;
-  color: transparent;
-  margin-top: 0 !important;
-
-}
-.sponsor-section-title-header h1{
-  text-align: center;
-  background-image: linear-gradient(to left bottom, #009fff,white,#92fe9d);
-  -webkit-background-clip: text;
-  color: transparent;
-  margin-top: 0 !important;
-
-}
- /*.sponsor-section-title {
-  line-height: 1.2;
-  animation-name: fadeInUp;
-  animation-duration: 1s;
-  font-size: 3rem;
-}*/
-#sponsors .sponsor-section-title-header p {
-  text-align: center;
-  background-image: linear-gradient(to left bottom, #009fff,white,#92fe9d);
-  animation: example2 20s linear 9s infinite normal;
-  -webkit-background-clip: text;
-  color: transparent;
-  font-size: 2rem;
-  height: 40px;
-}
-.sponsor-btn {
-  font-size: 14px;
-  padding: 12px 20px;
   border-radius: 4px;
-  cursor: pointer;
-  font-weight: 400;
-  color: black;
-  text-transform: uppercase;
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  padding: 50px;
+  margin-bottom: 30px;
   display: inline-block;
-}
-#sponsors .sponsor-btn-common{
-  background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-  animation: example2 20s linear 9s infinite normal;
-  position: relative;
-  z-index: 1;
+  border: 1px solid #ddd;
+  background: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
 }
 
-
-#sponsors .sponsor-btn-common:hover {
-  color: cadetblue;
-  background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-  animation: example2 20s linear 9s infinite normal;
-  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1);
-  transition: all .2s ease-in-out;
-  -moz-transition: all .2s ease-in-out;
-  -webkit-transition: all .2s ease-in-out;
-}
-
-#sponsors .sponsor-btn-border {
-  color: #fff;
-  background-color: transparent;
-  border: 1px solid #fff;
-}
-
-#sponsors .sponsors-logo a img {
-  margin: 30px;
-  margin-top: 1rem;
-  border:1px solid pink;
-   text-align: center;
-   background-color: WHITE;
-   background-image: linear-gradient(to left bottom,#009fff,white, #92fe9d);
-   animation: example2 20s linear 9s infinite normal;
-  height: 100px;
-  width : 100px;
-  border-radius: 10%;
+#sponsors .sponsors-logo {
+  padding: 30px;
+  margin-bottom: 30px;
 }
 
 #sponsors .spnsors-logo:hover {
@@ -1131,11 +996,18 @@ a.back-to-top:hover, a.back-to-top:focus {
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
 }
 
+#sponsors h2, h3 {
+  color: #009fff;
+}
+
+#sponsors .row {
+  padding-top: 3rem;
+}
+
 
 /* Schedule Area */
 #schedules {
-  background-image: url("assets\img\background\background-image.jpg.jpg");
-  background-color: #212121;
+  background-color: #323232;
   color: #ffffff;
   padding: 1rem;
   font-family: 'Playfair Display', serif;
