@@ -1444,6 +1444,10 @@ h1 {
 }
 
 /* Theme Section */
+.theme {
+  background-color: #323232;
+}
+
 .theme ul {
   margin-left: 3rem;
 }
