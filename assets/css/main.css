@@ -1443,6 +1443,11 @@ h1 {
   -o-transform: scale(1, 1);
 }
 
+/* Theme Section */
+.theme ul {
+  margin-left: 3rem;
+}
+
 /* Team Item */
 .team-item:hover {
   box-shadow: 0 25px 35px -12px rgba(0, 0, 0, 0.35);
