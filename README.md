@@ -1,2 +1,1 @@
-# TechX-Website
-Website for TechX NSUT
+Forked from IOSD/Techx-Website
