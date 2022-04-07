@@ -63,6 +63,12 @@ ol li {
   list-style: none;
 }
 
+.applyBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+} 
+
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -2790,6 +2796,7 @@ hr {
 .schedule-content-container {
   padding: 30px 0;
   padding-bottom: 0;
+  margin-left: 30px;
   display: flex;
   justify-content: center;
 }
@@ -2890,4 +2897,13 @@ hr {
   /* .schedule-tab-faq .schedule-tab-title {
     font-size: 1.2rem;
   } */
+}
+
+@media screen and (min-width: 750px){
+  .applyBtn .apply-button{
+    display: none;
+  }
+  .applyBtn{
+    display: none;
+  }
 }
